@@ -2,6 +2,7 @@ import pygame
 from openai import OpenAI
 
 # API key here
+# removed key
 
 import random
 import os
