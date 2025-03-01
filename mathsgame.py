@@ -1,7 +1,8 @@
 import pygame
 from openai import OpenAI
 
-client = OpenAI(api_key="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")
+# API key here
+
 import random
 import os
 
@@ -90,8 +91,6 @@ def generate_question():
             print("Error: Parsing response failed, regenerating...")
             continue
 
-# # Generate first question
-# generate_question()
 
 def draw_game():
     """Renders the question and answers on the Pygame screen."""
